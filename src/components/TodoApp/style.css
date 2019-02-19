@@ -1,0 +1,17 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 50px;
+}
+.TodoApp {
+    width: 500px;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid #c3c0c0;
+    border-radius: 3px;
+    background-color: #fafbfc;
+}
+.toto-item {
+    word-break: break-word;
+}  
