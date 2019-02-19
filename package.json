@@ -1,7 +1,13 @@
 {
   "name": "basic-todo-app-using-bit",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshK2/basic-todo-app-using-bitsrc"
+  },
+  "author": "JoshK2",
+  "license": "MIT",
   "dependencies": {
     "@bit/grommet.grommet-icons.add": "^4.0.1",
     "@bit/grommet.grommet.button": "^2.2.0",
