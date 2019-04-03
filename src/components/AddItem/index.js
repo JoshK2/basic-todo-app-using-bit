@@ -1,10 +1,42 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { InputTextarea } from '@bit/primefaces.primereact.inputtextarea';
 import { Button as GrommetButton } from '@bit/grommet.grommet.button';
-import { Add } from '@bit/grommet.grommet-icons.add';
 import { Button as PrimeButton } from '@bit/primefaces.primereact.button';
+import { Add } from '@bit/grommet.grommet-icons.add';
+import PrimereactStyle from '@bit/primefaces.primereact.internal.stylelinks';
 
+/**
+ * @name AddItem
+ * @description AddItem is two buttons and textarea to write a new item, one button to add item and another one to remove all items.
+ * @example 
+ * <AddItem handleAddItem={this.addItem} handleRemoveAllItems={this.removeAllItems} />
+ */
 export default class AddItem extends Component {
+
+    static propTypes = {
+        /**
+         * @description handleAddItem is a function that can be called to get the text of a new item.
+         */
+        handleAddItem: PropTypes.func,
+
+        /**
+         * @description handleRemoveAllItems is a function that can be called to remove all items.
+         */
+        handleRemoveAllItems: PropTypes.func,
+
+        /**
+         * @desciption showRemoveAllButton determine if remove all items button will be display.
+         */
+        showRemoveAllButton: PropTypes.bool
+    }
+
+    static defaultProps = {
+        handleAddItem: null,
+        handleRemoveAllItems: null,
+        showRemoveAllButton: true
+    }
+
     state = {
         text: '',
         showPrimary: false
@@ -16,6 +48,8 @@ export default class AddItem extends Component {
     }
 
     addItem = () => {
+        if (this.state.text === '' || !this.props.handleAddItem)
+            return;
         this.props.handleAddItem({
             text: this.state.text
         });
@@ -28,11 +62,13 @@ export default class AddItem extends Component {
 
     render() {
         const { text, showPrimary } = this.state;
+        const removeAllButton = this.props.showRemoveAllButton ? <PrimeButton onClick={this.removeAllItems} label='Remove All' className='p-button-secondary' style={{ float: 'right', marginTop: 5 }} /> : '';
         return (
             <div>
+                <PrimereactStyle />
                 <InputTextarea value={text} rows={1} cols={30} autoResize={true} style={{ fontSize: 24, width: '100%' }} onInput={(e) => this.setState({ text: e.target.value })} />
-                <GrommetButton onClick={this.addItem} icon={<Add />} onMouseEnter={() => this.showPrimary(true)} onMouseLeave={() => this.showPrimary(false)} primary={showPrimary} label='Add' style={{ marginTop: 5}} />
-                <PrimeButton onClick={this.removeAllItems} label='Remove All' className='p-button-secondary' style={{float: 'right', marginTop: 5}} />
+                <GrommetButton onClick={this.addItem} icon={<Add />} onMouseEnter={() => this.showPrimary(true)} onMouseLeave={() => this.showPrimary(false)} primary={showPrimary} label='Add' style={{ marginTop: 5 }} />
+                {removeAllButton}
             </div>)
     }
 }

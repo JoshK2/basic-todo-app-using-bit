@@ -755,210 +755,225 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@bit/grommet.grommet-icons.add@^4.0.1":
-  version "4.0.1"
-  resolved "https://node.bitsrc.io/grommet.grommet-icons.add/-/grommet.grommet-icons.add-4.0.1.tgz#432f1aff190a42f425f6bbe15f3a2d12404528e5"
-  integrity sha1-Qy8a/xkKQvQl9rvhXzotEkBFKOU=
+"@bit/grommet.grommet-icons.add@^4.2.0":
+  version "4.2.0"
+  resolved "https://node.bitsrc.io/grommet.grommet-icons.add/-/grommet.grommet-icons.add-4.2.0.tgz#b32ccc75d4f79b222e4840c3311f7bbec203be4d"
+  integrity sha1-syzMddT3myIuSEDDMR97vsIDvk0=
   dependencies:
-    "@bit/grommet.grommet-icons.internal.styled-icon" "4.0.1"
+    "@bit/grommet.grommet-icons.internal.styled-icon" "4.2.0"
 
-"@bit/grommet.grommet-icons.internal.default-props@4.0.1":
-  version "4.0.1"
-  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.default-props/-/grommet.grommet-icons.internal.default-props-4.0.1.tgz#0a7fe4d16d2055877068cf87c8b0b0faf3610e45"
-  integrity sha1-Cn/k0W0gVYdwaM+HyLCw+vNhDkU=
+"@bit/grommet.grommet-icons.internal.default-props@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.default-props/-/grommet.grommet-icons.internal.default-props-4.2.0.tgz#19b6131bc96b395fc2a5d9333440aa01a930851a"
+  integrity sha1-GbYTG8lrOV/CpdkzNECqAakwhRo=
   dependencies:
-    "@bit/grommet.grommet-icons.internal.themes" "4.0.1"
-    "@bit/grommet.grommet-icons.internal.utils" "4.0.1"
+    "@bit/grommet.grommet-icons.internal.themes" "4.2.0"
+    "@bit/grommet.grommet-icons.internal.utils" "4.2.0"
 
-"@bit/grommet.grommet-icons.internal.styled-icon@4.0.1":
-  version "4.0.1"
-  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.styled-icon/-/grommet.grommet-icons.internal.styled-icon-4.0.1.tgz#9e80e36f068425c466c3b936c32fd73ddb1512b0"
-  integrity sha1-noDjbwaEJcRmw7k2wy/XPdsVErA=
+"@bit/grommet.grommet-icons.internal.styled-icon@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.styled-icon/-/grommet.grommet-icons.internal.styled-icon-4.2.0.tgz#2aa81be4aa6fc8add8caa9227170f58f35b5ac5e"
+  integrity sha1-Kqgb5KpvyK3YyqkicXD1jzW1rF4=
   dependencies:
-    "@bit/grommet.grommet-icons.internal.default-props" "4.0.1"
+    "@bit/grommet.grommet-icons.internal.default-props" "4.2.0"
     grommet-styles "^0.2.0"
 
-"@bit/grommet.grommet-icons.internal.themes@4.0.1":
-  version "4.0.1"
-  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.themes/-/grommet.grommet-icons.internal.themes-4.0.1.tgz#c113f5febbe836717b682d6c09180e856b87bb98"
-  integrity sha1-wRP1/rvoNnF7aC1sCRgOhWuHu5g=
+"@bit/grommet.grommet-icons.internal.themes@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.themes/-/grommet.grommet-icons.internal.themes-4.2.0.tgz#540802e89ce251c56fc4137731af0651ac05dcf0"
+  integrity sha1-VAgC6JziUcVvxBN3Ma8GUawF3PA=
 
-"@bit/grommet.grommet-icons.internal.utils@4.0.1":
-  version "4.0.1"
-  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.utils/-/grommet.grommet-icons.internal.utils-4.0.1.tgz#e96c3f510f2a7e768050114c16bd9cb8bc8780dc"
-  integrity sha1-6Ww/UQ8qfnaAUBFMFr2cuLyHgNw=
+"@bit/grommet.grommet-icons.internal.utils@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bitsrc.io/grommet.grommet-icons.internal.utils/-/grommet.grommet-icons.internal.utils-4.2.0.tgz#6fadb59a5e94f653a0269ef6df37cef90412ff7e"
+  integrity sha1-b621ml6U9lOgJp723zfO+QQS/34=
 
-"@bit/grommet.grommet.announce-context@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.announce-context/-/grommet.grommet.announce-context-2.2.0.tgz#b83543af92c60be1993df24fb3e25e9821b4c452"
-  integrity sha1-uDVDr5LGC+GZPfJPs+JemCG0xFI=
+"@bit/grommet.grommet.announce-context@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.announce-context/-/grommet.grommet.announce-context-2.6.5.tgz#84084142063793c0ff621ee3f6297b663a2cf899"
+  integrity sha1-hAhBQgY3k8D/Yh7j9il7Zjos+Jk=
   dependencies:
-    "@bit/grommet.grommet.utils.index" "2.2.0"
-    react-desc "^4.1.0"
+    "@bit/grommet.grommet.internal.utils.index" "2.6.5"
+    react-desc "^4.1.2"
 
-"@bit/grommet.grommet.box@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.box/-/grommet.grommet.box-2.2.0.tgz#19c7f616940b2169bcc4bfa5d207c5c671137575"
-  integrity sha1-Gcf2FpQLIWm8xL+l0gfFxnETdXU=
+"@bit/grommet.grommet.box@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.box/-/grommet.grommet.box-2.6.5.tgz#55f610d3ad4435fca1c1be8481f6b873a2c687a6"
+  integrity sha1-VfYQ061ENfyhwb6Egfa4c6LGh6Y=
   dependencies:
-    "@bit/grommet.grommet.hocs" "2.2.0"
-    "@bit/grommet.grommet.internal.contexts.index" "2.2.0"
-    "@bit/grommet.grommet.internal.default-props" "2.2.0"
-    "@bit/grommet.grommet.utils.index" "2.2.0"
-    react-desc "^4.1.0"
+    "@bit/grommet.grommet.internal.contexts.index" "2.6.5"
+    "@bit/grommet.grommet.internal.default-props" "2.6.5"
+    "@bit/grommet.grommet.internal.hocs" "2.6.5"
+    "@bit/grommet.grommet.internal.utils.index" "2.6.5"
+    "@bit/grommet.grommet.internal.utils.indexd" "2.6.5"
+    react-desc "^4.1.2"
     recompose "^0.30.0"
 
-"@bit/grommet.grommet.button@^2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.button/-/grommet.grommet.button-2.2.0.tgz#97e56a18b9dc3a2a32467fc5e06d775b391aca0d"
-  integrity sha1-l+VqGLncOioyRn/F4G13Wzkayg0=
+"@bit/grommet.grommet.button@^2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.button/-/grommet.grommet.button-2.6.5.tgz#f98750ed00638b0e17f62b4bc6b85d20cf9220a0"
+  integrity sha1-+YdQ7QBjiw4X9itLxrhdIM+SIKA=
   dependencies:
-    "@bit/grommet.grommet.box" "2.2.0"
-    "@bit/grommet.grommet.hocs" "2.2.0"
-    "@bit/grommet.grommet.internal.default-props" "2.2.0"
-    "@bit/grommet.grommet.utils.index" "2.2.0"
-    react-desc "^4.1.0"
+    "@bit/grommet.grommet.box" "2.6.5"
+    "@bit/grommet.grommet.internal.default-props" "2.6.5"
+    "@bit/grommet.grommet.internal.hocs" "2.6.5"
+    "@bit/grommet.grommet.internal.utils.index" "2.6.5"
+    "@bit/grommet.grommet.internal.utils.indexd" "2.6.5"
+    react-desc "^4.1.2"
     recompose "^0.30.0"
 
-"@bit/grommet.grommet.hocs@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.hocs/-/grommet.grommet.hocs-2.2.0.tgz#0c1628d6f53720b07be644d06c88fb73594af5bc"
-  integrity sha1-DBYo1vU3ILB75kTQbIj7c1lK9bw=
+"@bit/grommet.grommet.internal.contexts.index@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.internal.contexts.index/-/grommet.grommet.internal.contexts.index-2.6.5.tgz#e96f6edbd05b40085c60eafadb7689d398e8ceae"
+  integrity sha1-6W9u29BbQAhcYOr623aJ05jozq4=
   dependencies:
-    "@bit/grommet.grommet.internal.contexts.index" "2.2.0"
+    "@bit/grommet.grommet.announce-context" "2.6.5"
+    "@bit/grommet.grommet.responsive-context" "2.6.5"
+    "@bit/grommet.grommet.theme-context" "2.6.5"
+
+"@bit/grommet.grommet.internal.default-props@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.internal.default-props/-/grommet.grommet.internal.default-props-2.6.5.tgz#57ac3bf95ad5ae92362031a4a0483a9d1ee01aef"
+  integrity sha1-V6w7+VrVrpI2IDGkoEg6nR7gGu8=
+  dependencies:
+    "@bit/grommet.grommet.internal.utils.index" "2.6.5"
+    "@bit/grommet.grommet.themes" "2.6.5"
+
+"@bit/grommet.grommet.internal.hocs@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.internal.hocs/-/grommet.grommet.internal.hocs-2.6.5.tgz#11f6691afa7735f57717e418829f97f434ed9287"
+  integrity sha1-EfZpGvp3NfV3F+QYgp+X9DTtkoc=
+  dependencies:
+    "@bit/grommet.grommet.internal.contexts.index" "2.6.5"
     hoist-non-react-statics "^3.2.0"
     recompose "^0.30.0"
 
-"@bit/grommet.grommet.internal.contexts.index@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.internal.contexts.index/-/grommet.grommet.internal.contexts.index-2.2.0.tgz#5736979fb10d6e30cb0a4744465686562a4762a2"
-  integrity sha1-VzaXn7ENbjDLCkdERlaGVipHYqI=
+"@bit/grommet.grommet.internal.utils.index@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.internal.utils.index/-/grommet.grommet.internal.utils.index-2.6.5.tgz#683b235ab606c73cf5df0a44a846ff4ee40aceae"
+  integrity sha1-aDsjWrYGxzz13wpEqEb/TuQKzq4=
   dependencies:
-    "@bit/grommet.grommet.announce-context" "2.2.0"
-    "@bit/grommet.grommet.responsive-context" "2.2.0"
-    "@bit/grommet.grommet.theme-context" "2.2.0"
+    "@bit/grommet.grommet.utils.background" "2.6.5"
+    "@bit/grommet.grommet.utils.colors" "2.6.5"
+    "@bit/grommet.grommet.utils.debounce" "2.6.5"
+    "@bit/grommet.grommet.utils.dom" "2.6.5"
+    "@bit/grommet.grommet.utils.graphics" "2.6.5"
+    "@bit/grommet.grommet.utils.mixins" "2.6.5"
+    "@bit/grommet.grommet.utils.object" "2.6.5"
+    "@bit/grommet.grommet.utils.prop-types" "2.6.5"
+    "@bit/grommet.grommet.utils.responsive" "2.6.5"
+    "@bit/grommet.grommet.utils.router" "2.6.5"
+    "@bit/grommet.grommet.utils.styles" "2.6.5"
+    "@bit/grommet.grommet.utils.theme-doc-utils" "2.6.5"
+    "@bit/grommet.grommet.utils.throttle" "2.6.5"
 
-"@bit/grommet.grommet.internal.default-props@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.internal.default-props/-/grommet.grommet.internal.default-props-2.2.0.tgz#4c714243baa20019d9acd3a16db4e9e07d71444a"
-  integrity sha1-THFCQ7qiABnZrNOhbbTp4H1xREo=
-  dependencies:
-    "@bit/grommet.grommet.themes" "2.2.0"
-    "@bit/grommet.grommet.utils.index" "2.2.0"
+"@bit/grommet.grommet.internal.utils.indexd@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.internal.utils.indexd/-/grommet.grommet.internal.utils.indexd-2.6.5.tgz#cb8dd2cc29ee033f662ccfe10d0e2af162ffa305"
+  integrity sha1-y43SzCnuAz9mLM/hDQ4q8WL/owU=
 
-"@bit/grommet.grommet.responsive-context@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.responsive-context/-/grommet.grommet.responsive-context-2.2.0.tgz#de28d6e972216bc6b1fffe205549813de79453de"
-  integrity sha1-3ijW6XIha8ax//4gVUmBPeeUU94=
+"@bit/grommet.grommet.responsive-context@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.responsive-context/-/grommet.grommet.responsive-context-2.6.5.tgz#eea1d714a54a8314192641e5c01ae70fc614d943"
+  integrity sha1-7qHXFKVKgxQZJkHlwBrnD8YU2UM=
   dependencies:
-    "@bit/grommet.grommet.utils.index" "2.2.0"
-    react-desc "^4.1.0"
+    "@bit/grommet.grommet.internal.utils.index" "2.6.5"
+    react-desc "^4.1.2"
 
-"@bit/grommet.grommet.theme-context@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.theme-context/-/grommet.grommet.theme-context-2.2.0.tgz#d1e20776cc3156ce3db0035da069c90ba4273375"
-  integrity sha1-0eIHdswxVs49sANdoGnJC6QnM3U=
+"@bit/grommet.grommet.theme-context@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.theme-context/-/grommet.grommet.theme-context-2.6.5.tgz#10db0d4befe108a3ea3aba8ad1da9a53f1fe7cec"
+  integrity sha1-ENsNS+/hCKPqOrqK0dqaU/H+fOw=
   dependencies:
-    "@bit/grommet.grommet.utils.index" "2.2.0"
-    prop-types "^15.5.10"
-    react-desc "^4.1.0"
+    "@bit/grommet.grommet.internal.utils.index" "2.6.5"
+    prop-types "^15.7.2"
+    react-desc "^4.1.2"
 
-"@bit/grommet.grommet.themes@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.themes/-/grommet.grommet.themes-2.2.0.tgz#094b62075d01e714a5a45ef5cf510893dd7bc816"
-  integrity sha1-CUtiB10B5xSlpF71z1EIk917yBY=
+"@bit/grommet.grommet.themes@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.themes/-/grommet.grommet.themes-2.6.5.tgz#980f36c4fe0fe218b72984a7f36d64a5c8b19382"
+  integrity sha1-mA82xP4P4hi3KYSn821kpcixk4I=
   dependencies:
-    "@bit/grommet.grommet.utils.index" "2.2.0"
-    grommet-icons "^4.0.0"
+    "@bit/grommet.grommet.internal.utils.indexd" "2.6.5"
+    "@bit/grommet.grommet.utils.colors" "2.6.5"
+    "@bit/grommet.grommet.utils.object" "2.6.5"
+    grommet-icons "^4.2.0"
     polished "^2.2.0"
 
-"@bit/grommet.grommet.utils.background@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.background/-/grommet.grommet.utils.background-2.2.0.tgz#507781ca040ec0cd32da0ed0a3680b3c5ab76a25"
-  integrity sha1-UHeBygQOwM0y2g7Qo2gLPFq3aiU=
+"@bit/grommet.grommet.utils.background@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.background/-/grommet.grommet.utils.background-2.6.5.tgz#a29234cb45b825c9dde444c0c11507fa48468f47"
+  integrity sha1-opI0y0W4Jcnd5ETAwRUH+khGj0c=
   dependencies:
-    "@bit/grommet.grommet.utils.colors" "2.2.0"
-    "@bit/grommet.grommet.utils.styles" "2.2.0"
+    "@bit/grommet.grommet.utils.colors" "2.6.5"
+    "@bit/grommet.grommet.utils.styles" "2.6.5"
 
-"@bit/grommet.grommet.utils.colors@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.colors/-/grommet.grommet.utils.colors-2.2.0.tgz#440401ad0e342ed97156b7c3207d8f44e94e00af"
-  integrity sha1-RAQBrQ40LtlxVrfDIH2PROlOAK8=
+"@bit/grommet.grommet.utils.colors@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.colors/-/grommet.grommet.utils.colors-2.6.5.tgz#8aa6c28175e5cfd384d650ef8559a236d6fbe5ee"
+  integrity sha1-iqbCgXXlz9OE1lDvhVmiNtb75e4=
 
-"@bit/grommet.grommet.utils.debounce@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.debounce/-/grommet.grommet.utils.debounce-2.2.0.tgz#83f4f359391dd1071e5f8fda379e3f6f263bd47a"
-  integrity sha1-g/TzWTkd0QceX4/aN54/byY71Ho=
+"@bit/grommet.grommet.utils.debounce@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.debounce/-/grommet.grommet.utils.debounce-2.6.5.tgz#d73f63cd27dab48c0696a6f4fe85394bb0180d5a"
+  integrity sha1-1z9jzSfatIwGlqb0/oU5S7AYDVo=
 
-"@bit/grommet.grommet.utils.dom@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.dom/-/grommet.grommet.utils.dom-2.2.0.tgz#27c6d4e5dfd74146f8982ad351fc8658ca5922eb"
-  integrity sha1-J8bU5d/XQUb4mCrTUfyGWMpZIus=
+"@bit/grommet.grommet.utils.dom@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.dom/-/grommet.grommet.utils.dom-2.6.5.tgz#ad1bd69074131574bbcf22f65fe73dab07af8693"
+  integrity sha1-rRvWkHQTFXS7zyL2X+c9qwevhpM=
 
-"@bit/grommet.grommet.utils.graphics@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.graphics/-/grommet.grommet.utils.graphics-2.2.0.tgz#45f72bb1f5a737cc74ef485e8f4105022a12a408"
-  integrity sha1-RfcrsfWnN8x070hej0EFAioSpAg=
+"@bit/grommet.grommet.utils.graphics@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.graphics/-/grommet.grommet.utils.graphics-2.6.5.tgz#6619eac372a4f473c88f74406217da3a8f093117"
+  integrity sha1-Zhnqw3Kk9HPIj3RAYhfaOo8JMRc=
 
-"@bit/grommet.grommet.utils.index@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.index/-/grommet.grommet.utils.index-2.2.0.tgz#9fe10b807131a2a3357c30399570bd07f752ca8b"
-  integrity sha1-n+ELgHExoqM1fDA5lXC9B/dSyos=
+"@bit/grommet.grommet.utils.mixins@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.mixins/-/grommet.grommet.utils.mixins-2.6.5.tgz#bd5e5a2934b3971860f8cc3cc5ff52356b3d92ab"
+  integrity sha1-vV5aKTSzlxhg+Mw8xf9SNWs9kqs=
+
+"@bit/grommet.grommet.utils.object@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.object/-/grommet.grommet.utils.object-2.6.5.tgz#86fc79784aff36a6d52653bbb5346c4273819322"
+  integrity sha1-hvx5eEr/NqbVJlO7tTRsQnOBkyI=
+
+"@bit/grommet.grommet.utils.prop-types@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.prop-types/-/grommet.grommet.utils.prop-types-2.6.5.tgz#59ec9d5ce71d6eb4c579f1099a176913ab7ba124"
+  integrity sha1-WeydXOcdbrTFefEJmhdpE6t7oSQ=
   dependencies:
-    "@bit/grommet.grommet.utils.background" "2.2.0"
-    "@bit/grommet.grommet.utils.colors" "2.2.0"
-    "@bit/grommet.grommet.utils.debounce" "2.2.0"
-    "@bit/grommet.grommet.utils.dom" "2.2.0"
-    "@bit/grommet.grommet.utils.graphics" "2.2.0"
-    "@bit/grommet.grommet.utils.mixins" "2.2.0"
-    "@bit/grommet.grommet.utils.object" "2.2.0"
-    "@bit/grommet.grommet.utils.prop-types" "2.2.0"
-    "@bit/grommet.grommet.utils.responsive" "2.2.0"
-    "@bit/grommet.grommet.utils.router" "2.2.0"
-    "@bit/grommet.grommet.utils.styles" "2.2.0"
-    "@bit/grommet.grommet.utils.throttle" "2.2.0"
+    react-desc "^4.1.2"
 
-"@bit/grommet.grommet.utils.mixins@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.mixins/-/grommet.grommet.utils.mixins-2.2.0.tgz#2b813b922de83bb8a116f4bb8e96b9e3b5e2064d"
-  integrity sha1-K4E7ki3oO7ihFvS7jpa547XiBk0=
+"@bit/grommet.grommet.utils.responsive@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.responsive/-/grommet.grommet.utils.responsive-2.6.5.tgz#e0b8ef19685291c95d3849f938ab626313b9dde5"
+  integrity sha1-4LjvGWhSkcldOEn5OKtiYxO53eU=
 
-"@bit/grommet.grommet.utils.object@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.object/-/grommet.grommet.utils.object-2.2.0.tgz#f4057af1890182faee41d4e10ff874ed604c44cd"
-  integrity sha1-9AV68YkBgvruQdThD/h07WBMRM0=
-
-"@bit/grommet.grommet.utils.prop-types@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.prop-types/-/grommet.grommet.utils.prop-types-2.2.0.tgz#aff425a7444b817577a2b703fb7ef1ce62bad0e8"
-  integrity sha1-r/Qlp0RLgXV3orcD+37xzmK60Og=
+"@bit/grommet.grommet.utils.router@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.router/-/grommet.grommet.utils.router-2.6.5.tgz#5a8ce0f42bacf8282d6cdf27221f603b54ffd930"
+  integrity sha1-Wozg9Cus+CgtbN8nIh9gO1T/2TA=
   dependencies:
-    react-desc "^4.1.0"
+    react-desc "^4.1.2"
 
-"@bit/grommet.grommet.utils.responsive@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.responsive/-/grommet.grommet.utils.responsive-2.2.0.tgz#8b3f900c84b39201e36cadccec1dc59f28fdf2b9"
-  integrity sha1-iz+QDISzkgHjbK3M7B3Fnyj98rk=
-
-"@bit/grommet.grommet.utils.router@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.router/-/grommet.grommet.utils.router-2.2.0.tgz#d4d9f6b45be66ca4aa07bee631608717ba86558d"
-  integrity sha1-1Nn2tFvmbKSqB77mMWCHF7qGVY0=
+"@bit/grommet.grommet.utils.styles@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.styles/-/grommet.grommet.utils.styles-2.6.5.tgz#f9b4fcef2e074cf86c64bb268dede95a8194fabd"
+  integrity sha1-+bT87y4HTPhsZLsmje3pWoGU+r0=
   dependencies:
-    react-desc "^4.1.0"
+    "@bit/grommet.grommet.utils.colors" "2.6.5"
+    "@bit/grommet.grommet.utils.mixins" "2.6.5"
 
-"@bit/grommet.grommet.utils.styles@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.styles/-/grommet.grommet.utils.styles-2.2.0.tgz#78b3086eecaaf9bee1e68c3afddb3bc61e8bf7f2"
-  integrity sha1-eLMIbuyq+b7h5ow6/ds7xh6L9/I=
-  dependencies:
-    "@bit/grommet.grommet.utils.colors" "2.2.0"
-    "@bit/grommet.grommet.utils.mixins" "2.2.0"
+"@bit/grommet.grommet.utils.theme-doc-utils@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.theme-doc-utils/-/grommet.grommet.utils.theme-doc-utils-2.6.5.tgz#5b11f6d1947ca5f53db078b912d3709d2f5fef00"
+  integrity sha1-WxH20ZR8pfU9sHi5EtNwnS9f7wA=
 
-"@bit/grommet.grommet.utils.throttle@2.2.0":
-  version "2.2.0"
-  resolved "https://node.bitsrc.io/grommet.grommet.utils.throttle/-/grommet.grommet.utils.throttle-2.2.0.tgz#9ff951ee729d1ff308951a9df47ed6afa0e1ad8f"
-  integrity sha1-n/lR7nKdH/MIlRqd9H7Wr6DhrY8=
+"@bit/grommet.grommet.utils.throttle@2.6.5":
+  version "2.6.5"
+  resolved "https://node.bitsrc.io/grommet.grommet.utils.throttle/-/grommet.grommet.utils.throttle-2.6.5.tgz#01064da4b9433810c24b36780b96ac0ebe00e296"
+  integrity sha1-AQZNpLlDOBDCSzZ4C5asDr4A4pY=
 
 "@bit/lodash.lodash.internal._array-map@4.17.11":
   version "4.17.11"
@@ -1047,294 +1062,308 @@
   dependencies:
     "@bit/lodash.lodash.to-string" "4.17.11"
 
-"@bit/primefaces.primereact.button@^2.0.1":
-  version "2.0.1"
-  resolved "https://node.bitsrc.io/primefaces.primereact.button/-/primefaces.primereact.button-2.0.1.tgz#ed02617a5e1dbd15c2253470bab9f837487b8c14"
-  integrity sha1-7QJhel4dvRXCJTRwurn4N0h7jBQ=
+"@bit/primefaces.primereact.button@^3.1.0":
+  version "3.1.0"
+  resolved "https://node.bitsrc.io/primefaces.primereact.button/-/primefaces.primereact.button-3.1.0.tgz#6b611240328460497a6565ab1a62e478ba9b034b"
+  integrity sha1-a2ESQDKEYEl6ZWWrGmLkeLqbA0s=
   dependencies:
-    "@bit/primefaces.primereact.internal.utild" "2.0.1"
-    "@bit/primefaces.primereact.tooltip" "2.0.1"
-    classnames "^2.2.5"
-    prop-types "^15.5.0"
-    react "^16.4.1"
+    "@bit/primefaces.primereact.internal.utild" "3.1.0"
+    "@bit/primefaces.primereact.tooltip" "3.1.0"
+    classnames "^2.2.6"
+    prop-types "^15.6.2"
+    react "^16.6.3"
 
-"@bit/primefaces.primereact.inputtextarea@^2.0.1":
-  version "2.0.1"
-  resolved "https://node.bitsrc.io/primefaces.primereact.inputtextarea/-/primefaces.primereact.inputtextarea-2.0.1.tgz#b28e9087e032f4d544e93d6b539143164db90246"
-  integrity sha1-so6Qh+Ay9NVE6T1rU5FDFk25AkY=
+"@bit/primefaces.primereact.inputtextarea@^3.1.0":
+  version "3.1.0"
+  resolved "https://node.bitsrc.io/primefaces.primereact.inputtextarea/-/primefaces.primereact.inputtextarea-3.1.0.tgz#de9c816afa0253daaea3a839dcf952676c53aacb"
+  integrity sha1-3pyBavoCU9quo6g53PlSZ2xTqss=
   dependencies:
-    "@bit/primefaces.primereact.tooltip" "2.0.1"
-    classnames "^2.2.5"
-    prop-types "^15.5.0"
-    react "^16.4.1"
+    "@bit/primefaces.primereact.tooltip" "3.1.0"
+    "@bit/primefaces.primereact.utils.dom-handler" "3.1.0"
+    classnames "^2.2.6"
+    prop-types "^15.6.2"
+    react "^16.6.3"
 
-"@bit/primefaces.primereact.internal.utild@2.0.1":
-  version "2.0.1"
-  resolved "https://node.bitsrc.io/primefaces.primereact.internal.utild/-/primefaces.primereact.internal.utild-2.0.1.tgz#b31beede1a3fc86241bbb9544d124943e2c9e7a6"
-  integrity sha1-sxvu3ho/yGJBu7lUTRJJQ+LJ56Y=
-
-"@bit/primefaces.primereact.tooltip@2.0.1":
-  version "2.0.1"
-  resolved "https://node.bitsrc.io/primefaces.primereact.tooltip/-/primefaces.primereact.tooltip-2.0.1.tgz#af5a51dded2756d1814146179c281c06d7dda918"
-  integrity sha1-r1pR3e0nVtGBQUYXnCgcBtfdqRg=
+"@bit/primefaces.primereact.internal.stylelinks@^3.1.0":
+  version "3.1.0"
+  resolved "https://node.bitsrc.io/primefaces.primereact.internal.stylelinks/-/primefaces.primereact.internal.stylelinks-3.1.0.tgz#e981581d572e8e1b7f3598f1b6839df27d27476f"
+  integrity sha1-6YFYHVcujht/NZjxtoOd8n0nR28=
   dependencies:
-    "@bit/primefaces.primereact.utils.dom-handler" "2.0.1"
+    react "^16.6.3"
 
-"@bit/primefaces.primereact.utils.dom-handler@2.0.1":
-  version "2.0.1"
-  resolved "https://node.bitsrc.io/primefaces.primereact.utils.dom-handler/-/primefaces.primereact.utils.dom-handler-2.0.1.tgz#c40c888a98eebc9a907c03ca8ac9f94289b1429f"
-  integrity sha1-xAyIipjuvJqQfAPKisn5QomxQp8=
+"@bit/primefaces.primereact.internal.utild@3.1.0":
+  version "3.1.0"
+  resolved "https://node.bitsrc.io/primefaces.primereact.internal.utild/-/primefaces.primereact.internal.utild-3.1.0.tgz#645a984221b617733266489c76ca23815e6c683a"
+  integrity sha1-ZFqYQiG2F3MyZkicdsojgV5saDo=
 
-"@bit/semantic-org.semantic-ui-react.dimmer@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.dimmer/-/semantic-org.semantic-ui-react.dimmer-0.85.0.tgz#4190bc0a69c705f96cff15622d03dfed55897460"
-  integrity sha1-QZC8CmnHBfls/xViLQPf7VWJdGA=
+"@bit/primefaces.primereact.tooltip@3.1.0":
+  version "3.1.0"
+  resolved "https://node.bitsrc.io/primefaces.primereact.tooltip/-/primefaces.primereact.tooltip-3.1.0.tgz#4513c37f9e7204c7b692e79afe51f5a31e672c87"
+  integrity sha1-RRPDf55yBMe2kuea/lH1ox5nLIc=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.portal" "0.85.0"
+    "@bit/primefaces.primereact.utils.dom-handler" "3.1.0"
+
+"@bit/primefaces.primereact.utils.dom-handler@3.1.0":
+  version "3.1.0"
+  resolved "https://node.bitsrc.io/primefaces.primereact.utils.dom-handler/-/primefaces.primereact.utils.dom-handler-3.1.0.tgz#c76ccdd1ad283cda3697ecc4dfc08434f3136ba4"
+  integrity sha1-x2zN0a0oPNo2l+zE38CENPMTa6Q=
+
+"@bit/semantic-org.semantic-ui-react.dimmer@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.dimmer/-/semantic-org.semantic-ui-react.dimmer-0.86.0.tgz#d80435f44d67c78fdf77d2ff0fbc1524c4dc9d25"
+  integrity sha1-2AQ19E1nx4/fd9L/D7wVJMTcnSU=
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.portal" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.ref" "0.86.0"
     classnames "^2.2.6"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.icon@0.85.0", "@bit/semantic-org.semantic-ui-react.icon@^0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.icon/-/semantic-org.semantic-ui-react.icon-0.85.0.tgz#543cc95bb41b63e15bae53d472c4af88d3987df9"
-  integrity sha1-VDzJW7QbY+FbrlPUcsSviNOYffk=
+"@bit/semantic-org.semantic-ui-react.icon@0.86.0", "@bit/semantic-org.semantic-ui-react.icon@^0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.icon/-/semantic-org.semantic-ui-react.icon-0.86.0.tgz#cc9136f29d70da62f3a04644c168a458280569f6"
+  integrity sha1-zJE28p1w2mLzoEZEwWikWCgFafY=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.86.0"
     classnames "^2.2.6"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.image@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.image/-/semantic-org.semantic-ui-react.image-0.85.0.tgz#7f7d83b3df1d349b40e40af3a03d7b5031634e1f"
-  integrity sha1-f32Ds98dNJtA5ArzoD17UDFjTh8=
+"@bit/semantic-org.semantic-ui-react.image@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.image/-/semantic-org.semantic-ui-react.image-0.86.0.tgz#2839dd1a2e8ec507ca454a5d854945d9e6fe21bb"
+  integrity sha1-KDndGi6OxQfKRUpdhUlF2eb+Ibs=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.dimmer" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.label" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.dimmer" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.label" "0.86.0"
     classnames "^2.2.6"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.internal.genericd@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.internal.genericd/-/semantic-org.semantic-ui-react.internal.genericd-0.85.0.tgz#c1dd9e822bf04668c59582109ad441108169a51b"
-  integrity sha1-wd2egivwRmjFlYIQmtRBEIFppRs=
+"@bit/semantic-org.semantic-ui-react.internal.genericd@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.internal.genericd/-/semantic-org.semantic-ui-react.internal.genericd-0.86.0.tgz#2c2a9929abe4994b9ac7d4e9e172e02b2e536cf2"
+  integrity sha1-LCqZKavkmUuax9Tp4XLgKy5TbPI=
 
-"@bit/semantic-org.semantic-ui-react.internal.utils.index@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.internal.utils.index/-/semantic-org.semantic-ui-react.internal.utils.index-0.85.0.tgz#cd722883a80eaba4ac1887e766e95a8b51d70207"
-  integrity sha1-zXIog6gOq6SsGIfnZulai1HXAgc=
-  dependencies:
-    "@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.child-mapping" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.children-utils" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.class-name-builders" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.create-pagination-items" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.custom-prop-types" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.debug" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.does-node-contain-click" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.event-stack" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.factories" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.get-element-type" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.get-unhandled-props" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.handle-ref" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.html-props-utils" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.is-browser" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.leven" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.normalize-offset" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.normalize-transition-duration" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.object-diff" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.utils.sui" "0.85.0"
+"@bit/semantic-org.semantic-ui-react.internal.style-links@^0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.internal.style-links/-/semantic-org.semantic-ui-react.internal.style-links-0.86.0.tgz#001b80f8156f1139081ed2cca3675978d39afb8c"
+  integrity sha1-ABuA+BVvETkIHtLMo2dZeNOa+4w=
 
-"@bit/semantic-org.semantic-ui-react.label@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.label/-/semantic-org.semantic-ui-react.label-0.85.0.tgz#aa2f874c7b4553d85a3ea197ef03d24ed3596566"
-  integrity sha1-qi+HTHtFU9haPqGX7wPSTtNZZWY=
+"@bit/semantic-org.semantic-ui-react.internal.utils.index@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.internal.utils.index/-/semantic-org.semantic-ui-react.internal.utils.index-0.86.0.tgz#68034b672659e393185cb1c4a7f6a51457deaa3c"
+  integrity sha1-aANLZyZZ45MYXLHEp/alFFfeqjw=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.icon" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.image" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.child-mapping" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.children-utils" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.class-name-builders" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.create-pagination-items" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.custom-prop-types" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.does-node-contain-click" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.event-stack" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.factories" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.get-element-type" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.get-unhandled-props" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.html-props-utils" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.is-browser" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.leven" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.make-debugger" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.normalize-offset" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.normalize-transition-duration" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.object-diff" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.ref-utils" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.utils.sui" "0.86.0"
+
+"@bit/semantic-org.semantic-ui-react.label@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.label/-/semantic-org.semantic-ui-react.label-0.86.0.tgz#f77c154a62ebea376ee068b5d6078c161fe80bb3"
+  integrity sha1-93wVSmLr6jdu4Gi11geMFh/oC7M=
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.icon" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.image" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.86.0"
     classnames "^2.2.6"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.list@^0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.list/-/semantic-org.semantic-ui-react.list-0.85.0.tgz#6b7d4f5e127a272aa5e0c189b1834516eed589ff"
-  integrity sha1-a31PXhJ6Jyql4MGJsYNFFu7Vif8=
+"@bit/semantic-org.semantic-ui-react.list@^0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.list/-/semantic-org.semantic-ui-react.list-0.86.0.tgz#3c5642c7d16413a9e381052d90bb102edad3cd35"
+  integrity sha1-PFZCx9FkE6njgQUtkLsQLtrTzTU=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.icon" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.image" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.icon" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.image" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.86.0"
     classnames "^2.2.6"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.portal@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.portal/-/semantic-org.semantic-ui-react.portal-0.85.0.tgz#3dc3deff6eab7f364e149f9fd98d778d22a35c3d"
-  integrity sha1-PcPe/26rfzZOFJ+f2Y13jSKjXD0=
+"@bit/semantic-org.semantic-ui-react.portal@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.portal/-/semantic-org.semantic-ui-react.portal-0.86.0.tgz#b798d73e99cb220c0d2cacd4effaf48b0ba911e8"
+  integrity sha1-t5jXPpnLIgwNLKzU7/r0iwupEeg=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.85.0"
-    "@bit/semantic-org.semantic-ui-react.ref" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.86.0"
+    "@bit/semantic-org.semantic-ui-react.ref" "0.86.0"
     keyboard-key "^1.0.4"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.ref@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.ref/-/semantic-org.semantic-ui-react.ref-0.85.0.tgz#445acb8df384d382228ba0780499464e15a5486d"
-  integrity sha1-RFrLjfOE04Iii6B4BJlGThWlSG0=
+"@bit/semantic-org.semantic-ui-react.ref@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.ref/-/semantic-org.semantic-ui-react.ref-0.86.0.tgz#54ec14e656310f87e4b21f9b1a93718ab708cd7e"
+  integrity sha1-VOwU5lYxD4fksh+bGpNxircIzX4=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.utils.handle-ref" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.utils.ref-utils" "0.86.0"
     prop-types "^15.6.2"
     react-is "^16.7.0"
 
-"@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.auto-controlled-component/-/semantic-org.semantic-ui-react.utils.auto-controlled-component-0.85.0.tgz#46e4f18ff9e5558e168408b67682f191edcef5a0"
-  integrity sha1-RuTxj/nlVY4WhAi2doLxke3O9aA=
+"@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.auto-controlled-component/-/semantic-org.semantic-ui-react.utils.auto-controlled-component-0.86.0.tgz#9ca63d87b756b88bd6c9e7b8a7e93f04b02d78ba"
+  integrity sha1-nKY9h7dWuIvWyee4p+k/BLAteLo=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.child-mapping@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.child-mapping/-/semantic-org.semantic-ui-react.utils.child-mapping-0.85.0.tgz#9d3ccc444b7104e56fd4cb8ef1f6e99aeed2c5d9"
-  integrity sha1-nTzMREtxBOVv1MuO8fbpmu7Sxdk=
+"@bit/semantic-org.semantic-ui-react.utils.child-mapping@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.child-mapping/-/semantic-org.semantic-ui-react.utils.child-mapping-0.86.0.tgz#9dc64f90531911d8f9135832c6bb4b2970130838"
+  integrity sha1-ncZPkFMZEdj5E1gyxrtLKXATCDg=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.children-utils@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.children-utils/-/semantic-org.semantic-ui-react.utils.children-utils-0.85.0.tgz#97d458246f9a677c4e3198a23f17542d78811afb"
-  integrity sha1-l9RYJG+aZ3xOMZiiPxdULXiBGvs=
+"@bit/semantic-org.semantic-ui-react.utils.children-utils@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.children-utils/-/semantic-org.semantic-ui-react.utils.children-utils-0.86.0.tgz#b8f250c5ea13fdf3086d9e6c3ffe11ea20f13fd1"
+  integrity sha1-uPJQxeoT/fMIbZ5sP/4R6iDxP9E=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.class-name-builders@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.class-name-builders/-/semantic-org.semantic-ui-react.utils.class-name-builders-0.85.0.tgz#b85f2105b63e13158908ce3ab7ebf9d7b6f3ad3e"
-  integrity sha1-uF8hBbY+ExWJCM46t+v517bzrT4=
+"@bit/semantic-org.semantic-ui-react.utils.class-name-builders@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.class-name-builders/-/semantic-org.semantic-ui-react.utils.class-name-builders-0.86.0.tgz#a9ead89a0a98fa634137001084413b738ee0c9c6"
+  integrity sha1-qerYmgqY+mNBNwAQhEE7c47gycY=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.86.0"
 
-"@bit/semantic-org.semantic-ui-react.utils.create-pagination-items@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.create-pagination-items/-/semantic-org.semantic-ui-react.utils.create-pagination-items-0.85.0.tgz#561163607c083863efb31e0cd6eb8143ef79a487"
-  integrity sha1-VhFjYHwIOGPvsx4M1uuBQ+95pIc=
+"@bit/semantic-org.semantic-ui-react.utils.create-pagination-items@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.create-pagination-items/-/semantic-org.semantic-ui-react.utils.create-pagination-items-0.86.0.tgz#007742536701af43913368a97ec4bb20b84cde74"
+  integrity sha1-AHdCU2cBr0ORM2ipfsS7ILhM3nQ=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.custom-prop-types@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.custom-prop-types/-/semantic-org.semantic-ui-react.utils.custom-prop-types-0.85.0.tgz#caa62835fd32368deba02c085517c87885a0fc61"
-  integrity sha1-yqYoNf0yNo3roCwIVRfIeIWg/GE=
+"@bit/semantic-org.semantic-ui-react.utils.custom-prop-types@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.custom-prop-types/-/semantic-org.semantic-ui-react.utils.custom-prop-types-0.86.0.tgz#0896117078df3906bfd4aacba25ad88918bfbc4a"
+  integrity sha1-CJYRcHjfOQa/1KrLolrYiRi/vEo=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.utils.leven" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.utils.leven" "0.86.0"
     lodash "^4.17.11"
     prop-types "^15.6.2"
 
-"@bit/semantic-org.semantic-ui-react.utils.debug@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.debug/-/semantic-org.semantic-ui-react.utils.debug-0.85.0.tgz#c9d5dda342bc1e9088601d9958a21d21968780df"
-  integrity sha1-ydXdo0K8HpCIYB2ZWKIdIZaHgN8=
-  dependencies:
-    "@bit/semantic-org.semantic-ui-react.utils.is-browser" "0.85.0"
-    debug "^4.1.1"
-
-"@bit/semantic-org.semantic-ui-react.utils.does-node-contain-click@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.does-node-contain-click/-/semantic-org.semantic-ui-react.utils.does-node-contain-click-0.85.0.tgz#93bea08d1fce0bfdb60094dc07a819a7ad10ddff"
-  integrity sha1-k76gjR/OC/22AJTcB6gZp60Q3f8=
+"@bit/semantic-org.semantic-ui-react.utils.does-node-contain-click@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.does-node-contain-click/-/semantic-org.semantic-ui-react.utils.does-node-contain-click-0.86.0.tgz#e0721d44de56937e912c3168951c259a92de3e73"
+  integrity sha1-4HIdRN5Wk36RLDFolRwlmpLePnM=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.event-stack@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.event-stack/-/semantic-org.semantic-ui-react.utils.event-stack-0.85.0.tgz#cc2e8b01908a1e5f624678fcd30675d71190ab88"
-  integrity sha1-zC6LAZCKHl9iRnj80wZ11xGQq4g=
+"@bit/semantic-org.semantic-ui-react.utils.event-stack@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.event-stack/-/semantic-org.semantic-ui-react.utils.event-stack-0.86.0.tgz#b0ef1be44387f230b30101e00e4a59eb0aff6d7b"
+  integrity sha1-sO8b5EOH8jCzAQHgDkpZ6wr/bXs=
   dependencies:
-    "@semantic-ui-react/event-stack" "^3.0.1"
+    "@semantic-ui-react/event-stack" "^3.1.0"
 
-"@bit/semantic-org.semantic-ui-react.utils.factories@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.factories/-/semantic-org.semantic-ui-react.utils.factories-0.85.0.tgz#72e474795e5b855b00bf68bdeeeb9de36400facb"
-  integrity sha1-cuR0eV5bhVsAv2i97uud42QA+ss=
+"@bit/semantic-org.semantic-ui-react.utils.factories@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.factories/-/semantic-org.semantic-ui-react.utils.factories-0.86.0.tgz#660952ad295048e78fefd88cad198174fbbbc2e1"
+  integrity sha1-ZglSrSlQSOeP79iMrRmBdPu7wuE=
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.get-element-type@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.get-element-type/-/semantic-org.semantic-ui-react.utils.get-element-type-0.85.0.tgz#59528656e1f0b50277838196b990f7446a5a3c62"
-  integrity sha1-WVKGVuHwtQJ3g4GWuZD3RGpaPGI=
+"@bit/semantic-org.semantic-ui-react.utils.get-element-type@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.get-element-type/-/semantic-org.semantic-ui-react.utils.get-element-type-0.86.0.tgz#1a5e552038db5627938a28919154742214e3fb05"
+  integrity sha1-Gl5VIDjbVieTiiiRkVR0IhTj+wU=
 
-"@bit/semantic-org.semantic-ui-react.utils.get-unhandled-props@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.get-unhandled-props/-/semantic-org.semantic-ui-react.utils.get-unhandled-props-0.85.0.tgz#4e314ad17efa40b7830eb8457a81382c5cda2f82"
-  integrity sha1-TjFK0X76QLeDDrhFeoE4LFzaL4I=
+"@bit/semantic-org.semantic-ui-react.utils.get-unhandled-props@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.get-unhandled-props/-/semantic-org.semantic-ui-react.utils.get-unhandled-props-0.86.0.tgz#8221bebf1f5d94bf7d842c3a1874c8ab8ad58a08"
+  integrity sha1-giG+vx9dlL99hCw6GHTIq4rVigg=
 
-"@bit/semantic-org.semantic-ui-react.utils.handle-ref@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.handle-ref/-/semantic-org.semantic-ui-react.utils.handle-ref-0.85.0.tgz#b320b3248f4d9870cf76673c22eca9c5acf9c6da"
-  integrity sha1-syCzJI9NmHDPdmc8Iuypxaz5xto=
-
-"@bit/semantic-org.semantic-ui-react.utils.html-props-utils@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.html-props-utils/-/semantic-org.semantic-ui-react.utils.html-props-utils-0.85.0.tgz#d7b5df3474de5b8940b727b80874b01d5396d659"
-  integrity sha1-17XfNHTeW4lAtye4CHSwHVOW1lk=
+"@bit/semantic-org.semantic-ui-react.utils.html-props-utils@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.html-props-utils/-/semantic-org.semantic-ui-react.utils.html-props-utils-0.86.0.tgz#49ebfaf0a742df3c7a8e6e8e73bfe716ff7391ba"
+  integrity sha1-Sev68KdC3zx6jm6Oc7/nFv9zkbo=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.is-browser@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.is-browser/-/semantic-org.semantic-ui-react.utils.is-browser-0.85.0.tgz#07028932b57dd59605cbb9868d1221c244171a1a"
-  integrity sha1-BwKJMrV91ZYFy7mGjRIhwkQXGho=
+"@bit/semantic-org.semantic-ui-react.utils.is-browser@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.is-browser/-/semantic-org.semantic-ui-react.utils.is-browser-0.86.0.tgz#5c673ae4396c0929c46b15d049e46ea794e5428c"
+  integrity sha1-XGc65DlsCSnEaxXQSeRup5TlQow=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.leven@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.leven/-/semantic-org.semantic-ui-react.utils.leven-0.85.0.tgz#d6098b26f2ae2c124abcc149e9e0130c183a2d3a"
-  integrity sha1-1gmLJvKuLBJKvMFJ6eATDBg6LTo=
+"@bit/semantic-org.semantic-ui-react.utils.leven@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.leven/-/semantic-org.semantic-ui-react.utils.leven-0.86.0.tgz#8b741ad11ed0e619ba44c7e2beddb76a89703f1b"
+  integrity sha1-i3Qa0R7Q5hm6RMfivt23aolwPxs=
 
-"@bit/semantic-org.semantic-ui-react.utils.normalize-offset@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.normalize-offset/-/semantic-org.semantic-ui-react.utils.normalize-offset-0.85.0.tgz#0a3081df953d9968d2015b18e3db5f54f2332c0c"
-  integrity sha1-CjCB35U9mWjSAVsY49tfVPIzLAw=
+"@bit/semantic-org.semantic-ui-react.utils.make-debugger@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.make-debugger/-/semantic-org.semantic-ui-react.utils.make-debugger-0.86.0.tgz#c6f6ee50a7c137bd677f9e1a782efeb5ded358ea"
+  integrity sha1-xvbuUKfBN71nf54aeC7+td7TWOo=
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.is-browser" "0.86.0"
+    debug "^4.1.1"
 
-"@bit/semantic-org.semantic-ui-react.utils.normalize-transition-duration@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.normalize-transition-duration/-/semantic-org.semantic-ui-react.utils.normalize-transition-duration-0.85.0.tgz#2f24a355f4138f5fc66440304b37c80a8f43f181"
-  integrity sha1-LySjVfQTj1/GZEAwSzfICo9D8YE=
+"@bit/semantic-org.semantic-ui-react.utils.normalize-offset@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.normalize-offset/-/semantic-org.semantic-ui-react.utils.normalize-offset-0.86.0.tgz#8376de01de792db42523a19740fab258e5b5360f"
+  integrity sha1-g3beAd55LbQlI6GXQPqyWOW1Ng8=
 
-"@bit/semantic-org.semantic-ui-react.utils.number-to-word@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.number-to-word/-/semantic-org.semantic-ui-react.utils.number-to-word-0.85.0.tgz#bf392218f492f6b8203815e5ef4e1b92d310ef25"
-  integrity sha1-vzkiGPSS9rggOBXl704bktMQ7yU=
+"@bit/semantic-org.semantic-ui-react.utils.normalize-transition-duration@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.normalize-transition-duration/-/semantic-org.semantic-ui-react.utils.normalize-transition-duration-0.86.0.tgz#56e57a3b35636f3c8cd92b08daaa8e4545ed692c"
+  integrity sha1-VuV6OzVjbzyM2SsI2qqORUXtaSw=
 
-"@bit/semantic-org.semantic-ui-react.utils.object-diff@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.object-diff/-/semantic-org.semantic-ui-react.utils.object-diff-0.85.0.tgz#e122180de6a8862cae4d416e6fad03e34f66a7ff"
-  integrity sha1-4SIYDeaohiyuTUFub60D409mp/8=
+"@bit/semantic-org.semantic-ui-react.utils.number-to-word@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.number-to-word/-/semantic-org.semantic-ui-react.utils.number-to-word-0.86.0.tgz#276ca8e4dbd57c0179b10aa7b1ab78441991fac4"
+  integrity sha1-J2yo5NvVfAF5sQqnsat4RBmR+sQ=
+
+"@bit/semantic-org.semantic-ui-react.utils.object-diff@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.object-diff/-/semantic-org.semantic-ui-react.utils.object-diff-0.86.0.tgz#b99d26a22a9ce73df2b7eef9312dcb4f2975a966"
+  integrity sha1-uZ0moiqc5z3yt+75MS3LTyl1qWY=
   dependencies:
     lodash "^4.17.11"
 
-"@bit/semantic-org.semantic-ui-react.utils.sui@0.85.0":
-  version "0.85.0"
-  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.sui/-/semantic-org.semantic-ui-react.utils.sui-0.85.0.tgz#c20ca8f127c2018f7aa8947fa478edbd9fd9ee88"
-  integrity sha1-wgyo8SfCAY96qJR/pHjtvZ/Z7og=
+"@bit/semantic-org.semantic-ui-react.utils.ref-utils@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.ref-utils/-/semantic-org.semantic-ui-react.utils.ref-utils-0.86.0.tgz#5c904598ebcd7fc92d394e2745197c93af74be79"
+  integrity sha1-XJBFmOvNf8ktOU4nRRl8k690vnk=
+
+"@bit/semantic-org.semantic-ui-react.utils.sui@0.86.0":
+  version "0.86.0"
+  resolved "https://node.bitsrc.io/semantic-org.semantic-ui-react.utils.sui/-/semantic-org.semantic-ui-react.utils.sui-0.86.0.tgz#0ca9b0c3eb36b37831dbec6bd666b2a566525ed7"
+  integrity sha1-DKmww+s2s3gx2+xr1maypWZSXtc=
   dependencies:
-    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.85.0"
+    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.86.0"
     lodash "^4.17.11"
 
 "@csstools/convert-colors@^1.4.0":
@@ -1372,10 +1401,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@semantic-ui-react/event-stack@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.0.1.tgz#41d0b095ac94cc5e1607a4fed4d0f8860d0d2e60"
-  integrity sha512-9YNRr0z9GEvk/yvIzAzv0sbYa/FPrtWTYibu+chJ0CEMQjYDjUdRSqtxXOvP0eM6kZjD1G/Oy1LhPiHG7DRHsg==
+"@semantic-ui-react/event-stack@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.1.0.tgz#aadbe4a28b0dd7703c5f451640d0fefe66dd9208"
+  integrity sha512-WHtU9wutZByZtFZxzj4BVEk+rvWldZpZhRcyv6d84+XLSolm83zLHYJLTACGuSl6Xa/xpgVXquvm9GyMudkJYg==
   dependencies:
     exenv "^1.2.2"
     prop-types "^15.6.2"
@@ -2787,7 +2816,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5, classnames@^2.2.6:
+classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -4824,7 +4853,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-grommet-icons@^4.0.0:
+grommet-icons@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/grommet-icons/-/grommet-icons-4.2.0.tgz#7bcf7d4b37f694516ade084e2536c72b224c6a76"
   integrity sha512-HMPLQa2pgnCZFImUXwfq+79VizL6oyP2/AAfAzQDw57x/6qgWouoqoRrrt+2zodTjTxtKXxliBY1w/o5uC+DpA==
@@ -8373,7 +8402,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4:
+prop-types@^15.5.4, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8564,7 +8593,7 @@ react-app-polyfill@^0.2.1:
     raf "3.4.1"
     whatwg-fetch "3.0.0"
 
-react-desc@^4.1.0:
+react-desc@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/react-desc/-/react-desc-4.1.2.tgz#83fc4ede66b2d45ae4ef63c18421474d55972966"
   integrity sha512-JAVe89uaLr0HZ0IKodnpTPNgNyJ/SPDQnl3VJPVwI+SpebmHvJiBNZEOwX201QmSbsVGqRY8ql/VFPlAx85WzA==
@@ -8684,7 +8713,17 @@ react-scripts@2.1.5:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@^16.4.1, react@^16.8.2:
+react@^16.6.3:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
+  integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.6"
+
+react@^16.8.2:
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.2.tgz#83064596feaa98d9c2857c4deae1848b542c9c0c"
   integrity sha512-aB2ctx9uQ9vo09HVknqv3DGRpI7OIGJhCx3Bt0QqoRluEjHSaObJl+nG12GDdYH6sTgE7YiPJ6ZUyMx9kICdXw==
@@ -9164,6 +9203,14 @@ scheduler@^0.13.2:
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.2.tgz#969eaee2764a51d2e97b20a60963b2546beff8fa"
   integrity sha512-qK5P8tHS7vdEMCW5IPyt8v9MJOHqTrOUgPXib7tqm9vh834ibBX5BNhwkplX/0iOzHW5sXyluehYfS9yrkz9+w==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.13.6:
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  integrity sha512-IWnObHt413ucAYKsD9J1QShUKkbKLQQHdxRyw73sw4FN26iWr3DY/H34xGPe4nmL1DwXyWmSWmMrA9TfQbE/XQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
