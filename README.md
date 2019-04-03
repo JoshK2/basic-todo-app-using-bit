@@ -16,13 +16,13 @@ A basic todo list app using bit components of few different collections
 ### to install them in your project
 
 ```bash
-yarn add @bit/semantic-org.semantic-ui-react.list
+yarn add @bit/semantic-org.semantic-ui-react.list  
 yarn add @bit/semantic-org.semantic-ui-react.icon  
-yarn add @bit/semantic-org.semantic-ui-react.internal.style-links
+yarn add @bit/semantic-org.semantic-ui-react.internal.style-links  
 
-yarn add @bit/primefaces.primereact.inputtextarea
-yarn add @bit/primefaces.primereact.button
-yarn add @bit/primefaces.primereact.internal.stylelinks
+yarn add @bit/primefaces.primereact.inputtextarea  
+yarn add @bit/primefaces.primereact.button  
+yarn add @bit/primefaces.primereact.internal.stylelinks  
 
 yarn add @bit/grommet.grommet.button
 yarn add @bit/grommet.grommet-icons.add
