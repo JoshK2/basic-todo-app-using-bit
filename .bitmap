@@ -14,25 +14,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.basic-todo-app/todo-app@0.0.1": {
-        "files": [
-            {
-                "relativePath": "src/components/TodoApp/index.js",
-                "test": false,
-                "name": "index.js"
-            },
-            {
-                "relativePath": "src/components/TodoApp/style.css",
-                "test": false,
-                "name": "style.css"
-            }
-        ],
-        "mainFile": "src/components/TodoApp/index.js",
-        "trackDir": "src/components/TodoApp",
-        "origin": "AUTHORED",
-        "exported": true
-    },
-    "joshk.basic-todo-app/todo-item@0.0.1": {
+    "joshk.basic-todo-app/todo-item@0.0.2": {
         "files": [
             {
                 "relativePath": "src/components/TodoItem/index.js",
@@ -42,6 +24,19 @@
         ],
         "mainFile": "src/components/TodoItem/index.js",
         "trackDir": "src/components/TodoItem",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "joshk.basic-todo-app/todo-app@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/TodoApp/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/TodoApp/index.js",
+        "trackDir": "src/components/TodoApp",
         "origin": "AUTHORED",
         "exported": true
     },

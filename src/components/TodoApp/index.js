@@ -42,8 +42,14 @@ class TodoApp extends Component {
 
   render() {
     const { todoList } = this.state;
+    const style = {
+      width: '100%', height: '100%', padding: 8,
+      border: '1px solid #c3c0c0',
+      borderRadius: 3,
+      backgroundColor: '#fafbfc'
+    }
     return (
-      <div style={{width: '100%', height: '100%'}}>
+      <div style={style}>
         <SemanticUiStyle />
         {todoList.length === 0 ? '' :
           <List divided style={{ fontSize: 24 }}>
