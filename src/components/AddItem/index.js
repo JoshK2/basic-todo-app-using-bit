@@ -39,7 +39,7 @@ export default class AddItem extends Component {
         return (
             <div>
                 <PrimereactStyle />
-                <InputTextarea value={text} rows={1} cols={30} autoResize={true} style={{ fontSize: 24, width: '100%' }} onInput={(e) => this.setState({ text: e.target.value })} />
+                <InputTextarea value={text} rows={1} cols={30} autoResize={true} style={{ fontSize: 24, width: '100%' }} onChange={(e) => this.setState({ text: e.target.value })} />
                 <GrommetButton onClick={this.addItem} icon={<Add />} onMouseEnter={() => this.showPrimary(true)} onMouseLeave={() => this.showPrimary(false)} primary={showPrimary} label='Add' style={{ marginTop: 5 }} />
                 {removeAllButton}
             </div>)

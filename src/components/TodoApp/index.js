@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import List from '@bit/semantic-org.semantic-ui-react.list';
 import TodoItem from '../TodoItem';
 import AddItem from '../AddItem';
@@ -8,22 +9,16 @@ import SemanticUiStyle from '@bit/semantic-org.semantic-ui-react.internal.style-
 /**
  * TodoApp is a component that use AddItem and TodoItem components to make one app that based on few collection on bit.
  */
-class TodoApp extends Component {
-  state = {
-    todoList: [
-      {
-        id: uniqueId('item_'),
-        text: 'mission 1'
-      },
-      {
-        id: uniqueId('item_'),
-        text: 'mission 2'
-      },
-      {
-        id: uniqueId('item_'),
-        text: 'mission 3'
-      }
-    ]
+export default class TodoApp extends Component {
+  constructor(props) {
+    super(props);
+    const initialTodoList = props.initialTodoList;
+    const list = initialTodoList.map((element) => {
+      return { id: uniqueId('item_'), text: element }
+    });
+    this.state = {
+      todoList: list
+    }
   }
 
   removeItem = data => {
@@ -68,4 +63,13 @@ class TodoApp extends Component {
   }
 }
 
-export default TodoApp;
+TodoApp.propTypes = {
+  /**
+   * todoList is an optional array of list.
+   */
+  initialTodoList: PropTypes.array
+}
+
+TodoApp.defaultProps = {
+  initialTodoList: []
+}
