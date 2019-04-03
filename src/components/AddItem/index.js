@@ -13,7 +13,7 @@ import PrimereactStyle from '@bit/primefaces.primereact.internal.stylelinks';
  * <AddItem handleAddItem={this.addItem} handleRemoveAllItems={this.removeAllItems} />
  */
 export default class AddItem extends Component {
-
+ 
     static propTypes = {
         /**
          * @description handleAddItem is a function that can be called to get the text of a new item.

@@ -3,7 +3,6 @@ import List from '@bit/semantic-org.semantic-ui-react.list';
 import TodoItem from '../TodoItem';
 import AddItem from '../AddItem';
 import uniqueId from '@bit/lodash.lodash.unique-id';
-import './style.css';
 import SemanticUiStyle from '@bit/semantic-org.semantic-ui-react.internal.style-links';
 
 class TodoApp extends Component {
@@ -44,19 +43,17 @@ class TodoApp extends Component {
   render() {
     const { todoList } = this.state;
     return (
-      <div className="App">
-        <div className="TodoApp">
-          <SemanticUiStyle />
-          {todoList.length === 0 ? '' :
-            <List divided style={{ fontSize: 24 }}>
-              {todoList.map(item => {
-                const todo = item.text;
-                const id = item.id;
-                return <List.Item key={id}><TodoItem text={todo} index={id} handleRemoveItem={this.removeItem} /></List.Item>
-              })}
-            </List>}
-          <AddItem handleAddItem={this.addItem} handleRemoveAllItems={this.removeAllItems} />
-        </div>
+      <div style={{width: '100%', height: '100%'}}>
+        <SemanticUiStyle />
+        {todoList.length === 0 ? '' :
+          <List divided style={{ fontSize: 24 }}>
+            {todoList.map(item => {
+              const todo = item.text;
+              const id = item.id;
+              return <List.Item key={id}><TodoItem text={todo} index={id} handleRemoveItem={this.removeItem} /></List.Item>
+            })}
+          </List>}
+        <AddItem handleAddItem={this.addItem} handleRemoveAllItems={this.removeAllItems} />
       </div>
     );
   }

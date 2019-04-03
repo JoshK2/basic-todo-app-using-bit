@@ -54,6 +54,6 @@ export default class TodoItem extends Component {
         const showRemove = this.state.showRemove;
         const text = this.props.text;
         const item = showRemove ? <div>{text}<Icon onClick={() => this.removeItem()} name='remove circle' link style={{ float: 'right' }} /></div> : <div>{text}</div>;
-        return <div onMouseEnter={() => this.showRemoveIcon(true)} onMouseLeave={() => this.showRemoveIcon(false)} className="toto-item">{item}</div>
+        return <div onMouseEnter={() => this.showRemoveIcon(true)} onMouseLeave={() => this.showRemoveIcon(false)} style={{ wordBreak: 'break-word' }}>{item}</div>
     }
 }
