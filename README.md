@@ -6,12 +6,12 @@ A basic todo list app using bit components of few different collections
 
 [https://bit.dev/semantic-org/semantic-ui-react/list](https://bit.dev/semantic-org/semantic-ui-react/list)  
 [https://bit.dev/semantic-org/semantic-ui-react/icon](https://bit.dev/semantic-org/semantic-ui-react/icon)  
-[https://bit.dev/primefaces/primereact/inputtextarea](https://bit.dev/primefaces/primereact/inputtextarea) 
+[https://bit.dev/primefaces/primereact/inputtextarea](https://bit.dev/primefaces/primereact/inputtextarea)   
 [https://bit.dev/primefaces/primereact/button](https://bit.dev/primefaces/primereact/button)  
-[https://bit.dev/primefaces/primereact/internal/stylelinks](https://bit.dev/primefaces/primereact/internal/stylelinks)
+[https://bit.dev/primefaces/primereact/internal/stylelinks](https://bit.dev/primefaces/primereact/internal/stylelinks)  
 [https://bit.dev/grommet/grommet/button](https://bit.dev/grommet/grommet/button)  
 [https://bit.dev/grommet/grommet-icons/add](https://bit.dev/grommet/grommet-icons/add)  
-[https://bit.dev/lodash/lodash/unique-id](https://bit.dev/lodash/lodash/unique-id)
+[https://bit.dev/lodash/lodash/unique-id](https://bit.dev/lodash/lodash/unique-id)  
 
 ### to install them in your project
 
