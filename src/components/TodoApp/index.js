@@ -5,6 +5,9 @@ import AddItem from '../AddItem';
 import uniqueId from '@bit/lodash.lodash.unique-id';
 import SemanticUiStyle from '@bit/semantic-org.semantic-ui-react.internal.style-links';
 
+/**
+ * TodoApp is a component that use AddItem and TodoItem components to make one app that based on few collection on bit.
+ */
 class TodoApp extends Component {
   state = {
     todoList: [

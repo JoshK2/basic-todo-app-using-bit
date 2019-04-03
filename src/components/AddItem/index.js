@@ -7,36 +7,9 @@ import { Add } from '@bit/grommet.grommet-icons.add';
 import PrimereactStyle from '@bit/primefaces.primereact.internal.stylelinks';
 
 /**
- * @name AddItem
- * @description AddItem is two buttons and textarea to write a new item, one button to add item and another one to remove all items.
- * @example 
- * <AddItem handleAddItem={this.addItem} handleRemoveAllItems={this.removeAllItems} />
+ * AddItem is two buttons and textarea to write a new item, one button to add item and another one to remove all items.
  */
 export default class AddItem extends Component {
- 
-    static propTypes = {
-        /**
-         * @description handleAddItem is a function that can be called to get the text of a new item.
-         */
-        handleAddItem: PropTypes.func,
-
-        /**
-         * @description handleRemoveAllItems is a function that can be called to remove all items.
-         */
-        handleRemoveAllItems: PropTypes.func,
-
-        /**
-         * @desciption showRemoveAllButton determine if remove all items button will be display.
-         */
-        showRemoveAllButton: PropTypes.bool
-    }
-
-    static defaultProps = {
-        handleAddItem: null,
-        handleRemoveAllItems: null,
-        showRemoveAllButton: true
-    }
-
     state = {
         text: '',
         showPrimary: false
@@ -71,4 +44,27 @@ export default class AddItem extends Component {
                 {removeAllButton}
             </div>)
     }
+}
+
+AddItem.propTypes = {
+    /**
+     * handleAddItem is a function that can be called to get the text of a new item.
+     */
+    handleAddItem: PropTypes.func,
+
+    /**
+     * handleRemoveAllItems is a function that can be called to remove all items.
+     */
+    handleRemoveAllItems: PropTypes.func,
+
+    /**
+     * showRemoveAllButton determine if remove all items button will be display.
+     */
+    showRemoveAllButton: PropTypes.bool
+}
+
+AddItem.defaultProps = {
+    handleAddItem: null,
+    handleRemoveAllItems: null,
+    showRemoveAllButton: true
 }
