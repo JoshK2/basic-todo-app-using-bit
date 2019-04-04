@@ -1,15 +1,32 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import List from '@bit/semantic-org.semantic-ui-react.list';
-import TodoItem from '../TodoItem';
-import AddItem from '../AddItem';
 import uniqueId from '@bit/lodash.lodash.unique-id';
 import SemanticUiStyle from '@bit/semantic-org.semantic-ui-react.internal.style-links';
 
-/**
- * TodoApp is a component that use AddItem and TodoItem components to make one app that based on few collection on bit.
- */
+import TodoItem from '../TodoItem';
+import AddItem from '../AddItem';
+
+const containerStyle = {
+  width: '100%', height: '100%',
+  padding: 8,
+  border: '1px solid #c3c0c0', borderRadius: 3,
+  backgroundColor: '#fafbfc'
+}
+
+/** 
+ * @description TodoApp is a component that use AddItem and TodoItem components to make one app that based on few collection on bit. 
+ * @example
+ * <TodoApp />
+*/
 export default class TodoApp extends Component {
+  static propTypes = {
+    /** todoList is an optional array of list.*/
+    initialTodoList: PropTypes.array
+  }
+
+  static defaultProps = { initialTodoList: [] }
+
   constructor(props) {
     super(props);
     const initialTodoList = props.initialTodoList;
@@ -40,14 +57,8 @@ export default class TodoApp extends Component {
 
   render() {
     const { todoList } = this.state;
-    const style = {
-      width: '100%', height: '100%', padding: 8,
-      border: '1px solid #c3c0c0',
-      borderRadius: 3,
-      backgroundColor: '#fafbfc'
-    }
     return (
-      <div style={style}>
+      <div style={containerStyle}>
         <SemanticUiStyle />
         {todoList.length === 0 ? '' :
           <List divided style={{ fontSize: 24 }}>
@@ -61,15 +72,4 @@ export default class TodoApp extends Component {
       </div>
     );
   }
-}
-
-TodoApp.propTypes = {
-  /**
-   * todoList is an optional array of list.
-   */
-  initialTodoList: PropTypes.array
-}
-
-TodoApp.defaultProps = {
-  initialTodoList: []
 }
