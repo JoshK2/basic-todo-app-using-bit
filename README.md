@@ -11,7 +11,7 @@ The final todo application is also [available as a reusbale bit component](https
 
 ## Motivation
 
-Demonstrating software modularity in the age of components with React and Bit. [Learn more in this Medium post]().
+Demonstrating software modularity in the age of components with React and Bit.
 
 ## Tutorial
 
