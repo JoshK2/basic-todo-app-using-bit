@@ -1,10 +1,24 @@
-# Basic Todo App using bit
+# Highly-modular React Todo application built of reusable Bit components
 
-A basic todo list app using [bit](https://bit.dev) components of few different collections.  
-[Components demo and live playground](https://bit.dev/joshk/basic-todo-app)
+A basic React todo aplication composed of [bit](https://bit.dev) componnets shared from 5 different popular React UI libraries inlcuding [Grommet](https://github.com/grommet/grommet), [Semantic-UI React](https://github.com/Semantic-Org/Semantic-UI-React), [Primereact](https://github.com/primefaces/primereact) and [Lodash](https://github.com/lodash/lodash). 
+
+All the reusable components used to build this app are [availabe in this collection](https://bit.dev/joshk/basic-todo-app).
+The final todo application is also [available as a reusbale bit component](https://bit.dev/joshk/basic-todo-app/todo-app), which can be extended and composed with other components to build larger applications.
+
 <p align="center">
   <a href="https://bit.dev/joshk/basic-todo-app"><img src="https://i.imagesup.co/images2/f2b5cc9a918fa58ed2106570ed5b4dbb20846b7f.png"></a>
 </p>
+
+## Motivation
+
+Demonstrating software modularity in the age of components with React and Bit. [Learn more in this Medium post]().
+
+## Tutorial
+
+See the full tutorial- build your own modular application with reusable components.
+
+**[Build a Super Modular Todo App with React and Bit Components](https://blog.bitsrc.io/build-a-super-modular-todo-app-with-react-and-bit-components-aa06bbac4084)**.
+
 
 ## Wich components I used?
 
