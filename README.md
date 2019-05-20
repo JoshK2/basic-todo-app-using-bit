@@ -1,4 +1,4 @@
-# Highly-modular React Todo application built of reusable Bit components ![collection](https://img.shields.io/bit/collection/total-components/joshk/basic-todo-app.svg)
+# Highly-modular React Todo application built of reusable Bit components [![collection](https://img.shields.io/bit/collection/total-components/joshk/basic-todo-app.svg)](https://bit.dev/joshk/basic-todo-app)
 
 A basic React todo aplication composed of [bit](https://bit.dev) componnets shared from 5 different popular React UI libraries inlcuding [Grommet](https://github.com/grommet/grommet), [Semantic-UI React](https://github.com/Semantic-Org/Semantic-UI-React), [Primereact](https://github.com/primefaces/primereact) and [Lodash](https://github.com/lodash/lodash). 
 
